@@ -1,0 +1,28 @@
+{
+  "name": "websocket-expressjs",
+  "version": "1.0.0",
+  "description": "Đồ án tiểu luận giữa kỳ môn NodeJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TongDucThanhNam/Midterm-Project.git"
+  },
+  "author": "Tống Đức Thành Nam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TongDucThanhNam/Midterm-Project/issues"
+  },
+  "homepage": "https://github.com/TongDucThanhNam/Midterm-Project#readme",
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "hbs": "~4.0.4",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  }
+}
