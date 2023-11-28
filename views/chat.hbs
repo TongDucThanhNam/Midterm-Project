@@ -1,0 +1,55 @@
+
+<!--Chat page-->
+<div class="container py-5" style="background: aquamarine">
+    <div class="row">
+        <div class="col-md-6 col-lg-7 col-xl-7">
+
+            <ul class="messages" id="messages">
+                <!--Oposite chat-->
+                <li class="d-flex justify-content-between mb-4">
+                    <!--Avatar -->
+                    <img src="/images/user1.jpeg" width="60" height="60">
+                    <!--Chat-->
+                    <div class="card" style="">
+                        <div class="card-header d-flex justify-content-between bg-primary-subtle h-50">
+                            <p>Trọng Kiên</p>
+                            <p>12 minute ago</p>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- My chat-->
+                <li class="d-flex justify-content-between mb-4">
+                    <div class="card">
+                        <div class="card-header d-flex justify-content-between bg-primary-subtle h-50">
+                            <p>Trọng Kiên</p>
+                            <p>12 minute ago</p>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                        </div>
+                    </div>
+                    <img src="/images/user2.png" width="60" height="60">
+                </li>
+            </ul>
+
+            <div class="">
+                <label class="form-label" for="textAreaExample3">
+                    <input class="form-control w-100" placeholder="Type your message here..." id="message"
+                           name="message" type="text">
+                </label>
+                <button id="send" name="send" type="button" class="send btn btn-light btn-lg btn-rounded float-end">
+                    Send
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="./javascripts/main.js"></script>
+
